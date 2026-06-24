@@ -1,0 +1,1 @@
+# Ensures schemas and tools actually exist locally

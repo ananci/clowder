@@ -1,0 +1,1 @@
+# Forces LLM JSON output into strict Pydantic types
