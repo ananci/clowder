@@ -1,0 +1,12 @@
+name: my-first-clowder-job
+global_settings:
+  engine: cloud
+  model: gemini-2.5-flash
+trigger:
+  source: file://data/inbox.json
+stages:
+  - name: summarize_emails
+    type: fan_out
+    agent_prompt: prompts/summarizer.md
+    output_schema: schemas.EmailSummary
+sink: file://data/processed.json
