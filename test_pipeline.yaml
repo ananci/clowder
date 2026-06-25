@@ -1,6 +1,6 @@
 name: my-first-clowder-job
 global_settings:
-  engine: cloud
+  engine: local_server
   model: gemini-2.5-flash
 trigger:
   source: file://data/inbox.json

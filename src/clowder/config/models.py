@@ -1,7 +1,7 @@
 # Pydantic models representing the Pipeline, Stages, etc.
 
 from typing import Literal, Optional, List
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field # pyright: ignore[reportUnusedImport]
 
 class GlobalSettings(BaseModel):
     engine: Literal["cloud", "local_server", "embedded"] = "cloud"

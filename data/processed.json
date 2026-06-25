@@ -1,0 +1,12 @@
+[
+  {
+    "reasoning": "local_mock_string",
+    "is_spam": true,
+    "sentiment": "local_mock_string"
+  },
+  {
+    "reasoning": "local_mock_string",
+    "is_spam": true,
+    "sentiment": "local_mock_string"
+  }
+]
